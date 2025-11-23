@@ -1,0 +1,17 @@
+{
+"name": "mi-proyecto",
+"version": "1.0.0",
+"description": "Proyecto de ejemplo para pipeline CI/CD con Node.js y Render",
+"main": "server.js",
+"scripts": {
+"start": "node server.js",
+"build": "echo \"build step (placeholder)\"",
+"test": "jest --runInBand",
+"prepublishOnly": "npm run build"
+},
+"author": "Tu Nombre",
+"license": "MIT",
+"devDependencies": {
+"jest": "^29.0.0"
+}
+}
